@@ -58,8 +58,4 @@ This project is open-source and available under the MIT License.
 Made with ❤️ by Arqam Hussain
 
 
----
-
-Let me know if you’d like to add deployment instructions for GitHub Pages or Netlify, or include a screenshot in the preview section.
-
 
