@@ -27,45 +27,49 @@ Built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **ShadCN UI compon
 
 ```
 
-uok\_department/
+```
+uok_department/
+├── app/                # Next.js App Router pages & layouts
+│   ├── globals.css     # Global styles
+│   ├── layout.tsx      # Root layout component
+│   └── page.tsx        # Home page
 │
-├── app/                  # Main application pages and layout
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
+├── components/         # Reusable UI components
+│   ├── ui/             # shadcn/ui components (40+ components)
+│   ├── campus.tsx      # Campus component
+│   ├── footer.tsx      # Footer component
+│   ├── header.tsx      # Header component
+│   ├── theme-provider.tsx # Theme management
+│   └── theme-toggle.tsx   # Theme switcher
 │
-├── components/           # UI components
-│   ├── ui/               # ShadCN UI components
-│   │   ├── accordion.tsx
-│   │   ├── alert-dialog.tsx
-│   │   ├── ...etc
-│   ├── campus.tsx
-│   ├── footer.tsx
-│   ├── header.tsx
-│   ├── theme-provider.tsx
-│   └── theme-toggle.tsx
+├── hooks/              # Custom React hooks
+│   ├── use-mobile.tsx  # Mobile detection hook
+│   └── use-toast.ts    # Toast notification hook
 │
-├── hooks/                # Custom React hooks
-│   ├── use-mobile.tsx
-│   └── use-toast.ts
+├── lib/                # Utility functions
+│   └── utils.ts        # Shared utilities
 │
-├── lib/                  # Utility functions
-│   └── utils.ts
-│
-├── public/               # Static assets
+├── public/             # Static assets
 │   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
 │   ├── placeholder-user.jpg
-│   ├── ...etc
+│   ├── placeholder.jpg
+│   └── placeholder.svg
 │
-├── styles/               # Global styles
-│   └── globals.css
+├── styles/             # Stylesheets
+│   └── globals.css     # Global CSS
 │
-├── work.csv              # Department data (CSV format)
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-└── README.md
-
+├── .gitignore          # Git ignore rules
+├── components.json     # shadcn/ui configuration
+├── karachi_university_departments_gui.py # Python CSV GUI
+├── next.config.mjs     # Next.js config
+├── package.json        # Project dependencies
+├── postcss.config.mjs  # PostCSS config
+├── tailwind.config.ts  # Tailwind config
+├── tsconfig.json       # TypeScript config
+├── work.csv            # Department data
+└── README.md           # Project documentation
+```
 ````
 
 ---
