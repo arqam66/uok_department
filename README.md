@@ -1,6 +1,3 @@
-Here’s a **complete, professional README.md** draft for your `uok_department` repository based on the structure you shared and assuming it’s a **Next.js + Tailwind CSS** project for Karachi University departments.
-
----
 
 ```markdown
 # UOK Departments
@@ -148,9 +145,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ```
 
----
 
-If you want, I can also **add screenshots and usage instructions** so the README looks more visually appealing. This would make it stand out more on GitHub.  
-
-Do you want me to extend this README with **images and examples**?
-```
