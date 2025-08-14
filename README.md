@@ -141,8 +141,4 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 📧 Contact: *\[Your Email Here]*
 🔗 GitHub: [@arqam66](https://github.com/arqam66)
 
----
-
-```
-
 
